@@ -1,0 +1,72 @@
+.header{
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-left-color: limegreen;
+  display: flex;
+  justify-content: space-between;
+  /*
+    flex-start 主轴起点对齐(默认值)
+    flex-end 主轴结束点对齐
+    center 在主轴中居中对齐
+    space-between 两端对齐，除了两端的子元素分别靠向两端的容器之外，其他子元素之间的间隔都相等
+    space-around 每个子元素之间的距离相等，两端的子元素距离容器的距离也和其它子元素之间的距离相同
+  */
+  align-items: center;
+  /*
+    stretch 默认值。元素被拉伸以适应容器。
+    center 元素位于容器的中心
+    flex-start 元素位于容器的开头
+    flex-end 元素位于容器的结尾
+    baseline 元素位于容器的基线上
+  */
+}
+
+.text-all{
+  color:greenyellow;
+  font-size: 16px;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /*
+    row  	默认值。灵活的项目将水平显示，正如一个行一样。
+    row-reverse 与 row 相同，但是以相反的顺序。
+    column 灵活的项目将垂直显示，正如一个列一样。
+    column-reverse 与 column 相同，但是以相反的顺序。
+  */
+  justify-content: space-around;
+  /* 
+    每个子元素之间的距离相等
+  */
+}
+
+.content-item{
+  height: 250rpx;
+  width: 45%;
+  margin: 2px;
+  position:relative;
+}
+
+.content-item-image{
+  width:168px;
+  height: 125px;
+}
+
+.content-item-text{
+  position: absolute;
+  bottom:0px;
+  color:white;
+  font-size:14px;
+  background: linear-gradient(to top,rgba(0,0,0,0.8),rgba(0,0,0,0));
+  /*
+    CSS3 渐变（gradients）可以让你在两个或多个指定的颜色之间显示平稳的过渡。
+  */
+  height: 125rpx;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
