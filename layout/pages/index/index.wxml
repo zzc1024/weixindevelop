@@ -39,8 +39,38 @@
 
   </view>
 
+  <!-- 热门评测  -->
   <view class='selection'>
+
+    <view class='header'>
+      <text>热门商品</text>
+      <text class='text-all'>全部商品</text>
+    </view>
+
+    <view class='list-item' wx:for="{{header}}">
+
+      <view class='list-item-images'>
+        <image src='{{item.imgurl}}' class='list-item-image'></image>
+        <image src='{{item.imgurl2}}' class='list-item-image2'></image>
+      </view>
+
+      <view class='list-item-text'>
+
+        <view class='list-item-text-title'>
+          <text>{{item.title}}</text>
+        </view>        
+        
+        <view class='list-item-text-content'>
+          <text>{{item.content}}</text>
+        </view>
+
+      </view>
+
+    </view>
+
   </view>
+
+
 
   <view class='selection'>
   </view>

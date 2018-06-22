@@ -11,6 +11,7 @@ Page({
       'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
       'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
     ],
+
     product:[
       {
         title:'摩卡咖啡',
@@ -28,62 +29,29 @@ Page({
         title: '卡布奇诺',
         imgurl: 'http://182.61.36.176/static/img/public/15296547425587.png'
       }
+    ],
+
+    header: [
+      {
+        title:'蓝山咖啡',
+        content:'蓝山咖啡，是指由产自牙买加蓝山的咖啡豆冲泡而成的咖啡。',
+        imgurl:'http://182.61.36.176/static/img/banner/20180619/5fbca5d06d7617bbe2344fd48d9d3935.jpg',
+        imgurl2:'http://182.61.36.176/static/img/water/20180622/996207ce9d9c4b1bfb3e8d97a6c0ecdf.png'
+      },
+      {
+        title: '蓝山咖啡',
+        content: '蓝山咖啡，是指由产自牙买加蓝山的咖啡豆冲泡而成的咖啡。',
+        imgurl: 'http://182.61.36.176/static/img/banner/20180619/5fbca5d06d7617bbe2344fd48d9d3935.jpg',
+        imgurl2: 'http://182.61.36.176/static/img/water/20180622/996207ce9d9c4b1bfb3e8d97a6c0ecdf.png'
+      },
+      {
+        title: '蓝山咖啡',
+        content: '蓝山咖啡，是指由产自牙买加蓝山的咖啡豆冲泡而成的咖啡。',
+        imgurl: 'http://182.61.36.176/static/img/banner/20180619/5fbca5d06d7617bbe2344fd48d9d3935.jpg',
+        imgurl2: 'http://182.61.36.176/static/img/water/20180622/996207ce9d9c4b1bfb3e8d97a6c0ecdf.png'
+      }
     ]
-  },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-    
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-    
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-    
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-    
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-    
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-    
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-    
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-    
   }
+  
+
 })
